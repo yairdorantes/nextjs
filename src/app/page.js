@@ -3,7 +3,7 @@ import TaskCard from "@/components/TaskCard";
 import { useTasks } from "@/context/TaskContext";
 import React from "react";
 
-const page = () => {
+const Page = () => {
   const { tasks } = useTasks();
   return (
     <div>
@@ -18,4 +18,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;
