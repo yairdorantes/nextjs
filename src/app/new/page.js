@@ -4,7 +4,7 @@ import { useRouter } from "next/navigation";
 import { useEffect } from "react";
 import { useForm } from "react-hook-form";
 import { toast } from "react-hot-toast";
-const page = ({ params }) => {
+const Page = ({ params }) => {
   const {
     register,
     handleSubmit,
@@ -53,4 +53,4 @@ const page = ({ params }) => {
   );
 };
 
-export default page;
+export default Page;
